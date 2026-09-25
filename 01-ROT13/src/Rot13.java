@@ -1,7 +1,7 @@
 public class Rot13 {
-    public static final String sus = "aáàbcçdeéèfghiíìïjklmnñoóòpqrstuúùüvwxyz";
-    public static final char[] minuscules = sus.toCharArray();
-    public static final char[] majuscules = sus.toUpperCase().toCharArray();
+    public static final String lletres = "aáàbcçdeéèfghiíìïjklmnñoóòpqrstuúùüvwxyz";
+    public static final char[] minuscules = lletres.toCharArray();
+    public static final char[] majuscules = lletres.toUpperCase().toCharArray();
     public static void main(String[] args) {
         String msgs[] = {"ABC", "XYZ", "Hola, Mr. calçot", "Perdó, per tu què és?"};
         String msgsXifrats[] = new String[msgs.length];
