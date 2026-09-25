@@ -1,4 +1,4 @@
-public class Rot13 {
+public class RotX {
     public static final String lletres = "aáàbcçdeéèfghiíìïjklmnñoóòpqrstuúùüvwxyz";
     public static final char[] minuscules = lletres.toCharArray();
     public static final char[] majuscules = lletres.toUpperCase().toCharArray();
